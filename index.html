@@ -26,3 +26,72 @@
     </footer>
     </body>
     </html>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Virtual</title>
+</head>
+<body>
+    <h1>Bem-vindo à minha página!</h1>
+    <img src="caminho/para/sua/imagem.png" alt="Descrição da Imagem">
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico com Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Meu Gráfico</h1>
+    <canvas id="myChart" width="400" height="200"></canvas>
+
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar', // Tipo de gráfico: 'bar', 'line', 'pie', etc.
+            data: {
+                labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'], // Rótulos do eixo X
+                datasets: [{
+                    label: 'Vendas',
+                    data: [12, 19, 3, 5, 2], // Dados do gráfico
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Social</title>
+</head>
+<body>
+    <h1>Desafio Social: [Nome do Desafio]</h1>
+    <p>Descrição do desafio e seus objetivos.</p>
+    <h2>Como Participar</h2>
+    <ul>
+        <li>Passo 1: [Descrição]</li>
+        <li>Passo 2: [Descrição]</li>
+    </ul>
+    <h2>Resultados Esperados</h2>
+    <p>[Explique os resultados esperados]</p>
+</body>
+</html>

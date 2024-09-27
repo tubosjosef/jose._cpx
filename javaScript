@@ -1,0 +1,25 @@
+## Sobre
+
+Este projeto, [kiwif], tem como objetivo [explicar o propósito]. Buscamos [resolver um problema específico] e promover [ações sociais, conscientização, etc.].
+
+### Objetivos
+- [Objetivo 1, vendas de produtos digitais]
+- [Objetivo 2, fazer dinheiro]
+
+### Como Funciona
+Os participantes podem [Uma página de vendas tem como principal objetivo vender um serviço ou produto. Isso significa que todos os elementos da página de venda, como textos, vídeos, imagens e CTA terão como principal objetivo a conversão. Se você está imaginando uma Landing Page, você não está enganado.
+
+### Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
+
+### Como Contribuir
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou fazer um pull request.
+
+### Resultados Esperados
+Esperamos [descrever os impactos ou resultados desejados].
+
+### Contato
+Para mais informações, entre em contato em [seu e-mail] ou siga-me em [link para redes sociais].
+
